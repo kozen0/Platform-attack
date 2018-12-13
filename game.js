@@ -5,8 +5,10 @@ var config = {
     physics: {
         defoult:'arcade',
         arcade: {
-            gravity: {Y 200}
+            gravity: {Y : 200}
         }
     },
     scene: [Example1]
 };
+
+var game = new.phaser.Game(config);
